@@ -17,6 +17,8 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
     top: 0;
     left: 0;
 }
@@ -91,7 +93,6 @@ h1{
     font-size: 50px;
 }
 
-
 .col-small{
     width: 35%;
 }
@@ -101,7 +102,7 @@ h1{
     position: relative;
 }
 
-h2{
+h3{
     font-size: 14px;
     color: rgb(125, 124, 124);
     font-weight: 400;
@@ -114,5 +115,39 @@ h2{
     top: -120px;
 }
 
-/* PRICES */
+/* FATTURAZIONE */
+
+.container-main{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.radio-checkbox{
+    font-size: 14px;
+    color: rgb(125, 124, 124);
+    font-weight: 400;
+}
+
+.input{
+    margin: 40px 40px 0 0;
+    display: inline-block;
+}
+
+/* PRICE */
+
+.col-30{
+    width: 30%;
+    border: 1px solid black;
+    min-height: 50px;
+    background-color: red;
+}
+
+.title-col-header{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
 
