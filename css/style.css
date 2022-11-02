@@ -64,4 +64,25 @@ li{
 
 /* JUMBO */
 
+main{
+    margin-top: 60px;
+}
 
+.jumbo{
+    background-color: rgb(201, 201, 254);
+    height: 300px;
+}
+
+.row-jumbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-text{
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
