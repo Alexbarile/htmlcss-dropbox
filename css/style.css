@@ -104,10 +104,12 @@ h1{
 
 h3{
     font-size: 14px;
-    color: rgb(125, 124, 124);
+    color: rgb(105, 105, 105);
     font-weight: 400;
     margin: 30px 0 30px 0;
 }
+
+
 
 .col-big img{
     width: 100%;
@@ -124,7 +126,7 @@ h3{
 
 .radio-checkbox{
     font-size: 14px;
-    color: rgb(125, 124, 124);
+    color: rgb(105, 105, 105);
     font-weight: 400;
 }
 
@@ -133,21 +135,51 @@ h3{
     display: inline-block;
 }
 
-/* PRICE */
+/* COLONNE */
 
 .col-30{
     width: 30%;
-    border: 1px solid black;
+    margin-top: 50px;
+    border: 1px solid rgb(160, 160, 160);
     min-height: 50px;
-    background-color: red;
 }
 
 .title-col-header{
     text-align: center;
-    vertical-align: middle;
-    border: 1px solid gray;
+    border-bottom: 1px solid rgb(160, 160, 160);
     padding: 10px;
     font-size: 14px;
     font-weight: 300;
 }
+
+.text-col-header{
+    padding: 20px;
+    font-size: 14px;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+i{
+    margin-right: 2px;
+}
+
+.text-col-header .information{
+    margin: 15px 0 20px 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.hr{
+    width: 30%;
+    margin-top: 20px;
+    border: 0.5px solid black;
+}
+
+.fa-check{
+    color: rgb(80, 80, 255);
+}
+
+/* COLONNA GRANDE */
 
