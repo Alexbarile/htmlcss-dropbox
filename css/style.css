@@ -104,8 +104,7 @@ h1{
     width: 65%;
     position: relative;
 }
-
-h3{
+p{
     font-size: 14px;
     color: rgb(105, 105, 105);
     font-weight: 400;
@@ -168,7 +167,7 @@ h3{
     font-size: 14px;
 }
 
-.text-col-header h3{
+.text-col-header p{
     padding: 0;
     margin-top: 10px;
 }
@@ -209,6 +208,10 @@ i{
     cursor: pointer;
 }
 
+a{
+   color: rgb(1,96,254);
+}
+
 .hr{
     width: 30%;
     margin-top: 20px;
@@ -242,7 +245,7 @@ i{
     font-weight: 300;
 }
 
-.special-h3{
+.special-p{
     margin-top: 50px;
 }
 
@@ -265,3 +268,30 @@ i{
 }
 
 /* OPERATIONS */
+
+.col h2{
+    margin: 100px 0 15px 0;;
+}
+
+.col-30-second{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.img-operations img{
+    width: 100%;
+}
+
+.col-30-second h2{
+    font-size: 20px;
+}
+
+.col-30-second p{
+    font-size: 13px;
+}
+
+.col-numbers h2{
+    margin: 100px 0 60px 0;
+}
+
+/* SPONSOR */
