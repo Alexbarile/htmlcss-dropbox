@@ -221,7 +221,7 @@ i{
 
 /* COLONNA GRANDE */
 
-/* .col-main{
+.col-main{
     width: 100%;
     margin-top: 40px;
     border: 1px solid rgb(160, 160, 160);
@@ -231,6 +231,21 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-} */
+    border: 1px solid rgb(160, 160, 160);
+    border-top: 0;
+}
+
+.text-baseline{
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.special-h3{
+    margin-top: 50px;
+}
+
+/* COL BIG COL SMALL */
+
 
 
