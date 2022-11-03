@@ -133,7 +133,6 @@ h3{
     font-size: 14px;
     color: rgb(105, 105, 105);
     font-weight: 400;
-    
 }
 
 .input{
@@ -153,7 +152,6 @@ h3{
     width: 30%;
     margin-top: 50px;
     border: 1px solid rgb(160, 160, 160);
-
 }
 
 .title-col-header{
@@ -198,6 +196,19 @@ i{
     margin-bottom: 15px;
 }
 
+.button-center{
+    text-align: center;
+}
+
+.button-special{
+    background-color: rgb(1,96,254);
+    padding: 5px 54px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
 .hr{
     width: 30%;
     margin-top: 20px;
@@ -209,4 +220,17 @@ i{
 }
 
 /* COLONNA GRANDE */
+
+/* .col-main{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.row-baseline{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+} */
+
 
