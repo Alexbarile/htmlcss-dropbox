@@ -215,7 +215,7 @@ a{
 .hr{
     width: 30%;
     margin-top: 20px;
-    border: 0.5px solid black;
+    border: 0.5px solid rgb(175, 175, 175);
 }
 
 .fa-check{
@@ -307,31 +307,76 @@ a{
     align-items: center;
 }
 
-.col-35{
-    width: 35%;
+.col-33{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
-.col-designit{
+.col-4{
     width: 50%;
-    height: 252px;
-    background-color: lightgreen;
+    height: 50%;
     position: relative;
-    border: 15px solid beige;
-} 
+}
 
-.col-designit img{
+.col-4 img{
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    
+    filter: invert();
 }
 
-.col-center{
-    width: 30%;
-    height: 50px;
-    background-color: yellow;
+.center{
+    padding: 40px;
 }
+
+.center img{
+    width: 50%;
+}
+
+.center p{
+    font-size: 12px;
+}
+
+/* BLOCCO SX */
+
+.designit{
+    background-color: lightgreen;
+    border: 15px solid beige;
+} 
+
+.asu{
+    background-color: rgb(106, 12, 12);
+}
+
+.uf{
+    background-color: rgb(120, 120, 255);
+}
+
+.topps{
+    background-color: red;
+}
+
+/* BLOCCO DX */
+
+.bicycle{
+    background-color: rgb(190, 0, 0);
+}
+
+.hearts{
+    background-color: rgb(200, 200, 255);
+}
+
+.lonely{
+    background-color: rgb(95, 13, 173);
+}
+
+.channel{
+    background-color: rgb(235, 235, 76);
+}
+
+/* MAIN FINAL */
+
