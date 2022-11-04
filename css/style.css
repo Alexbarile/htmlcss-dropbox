@@ -8,6 +8,10 @@ body{
     font-family: 'Noto Sans Vai', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 header{
@@ -116,6 +120,7 @@ p{
 
 .fa-arrow-down{
     margin: 30px 0 15px 0;
+    color: black;
 }
 
 .col-big img{
@@ -485,4 +490,3 @@ select{
     color: rgb(160, 160, 160);
     cursor: pointer;
 }
-
